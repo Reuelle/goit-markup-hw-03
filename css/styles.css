@@ -4,14 +4,13 @@ height: 72px;
 flex-shrink: 0;
 border-bottom: 1px solid var(--CORNFLOWER, #E7E9FC);
 background: var(--WHITE, #FFF);
-display: inline-block;
+display: inline;
 }
 .webpage span {
 width: 44px;
 color: var(--IRIS, #4D5AE5);
 font-family: Raleway;
 font-size: 18px;
-display: flex;
 width: fixed 44px;
 height: auto 21px;
 flex-shrink: 0;
@@ -20,14 +19,37 @@ font-weight: 800;
 line-height: 21px; /* 116.667% */
 letter-spacing: 0.54px;
 text-transform: uppercase;
-margin-left: 156px;
 }
+
 a[href="studio"] {
     margin-left: 347px;
-    margin-top: 24px;
-    display: flex;
     margin-right: 1045px;
-   
+    width: auto 48px;
+    height: auto 24px;
+}
+a[href="portfolio"] {
+    margin-left: 435px;
+    width: auto 66px;
+    height: auto 24px;
+    margin-right: 939px;
+}
+a[href="contacts"] {
+    margin-left: 541px;
+    width: auto 67px;
+    height: auto 24px;
+    margin-right: 832px;
+}
+a[href="info@devstudio.com"] {
+    margin-left: 940px;
+    margin-right: 347px;
+    width: fixed 153px;
+    height: auto 24px;
+}
+a[href="+11(000)111-11-11"] {
+    margin-left: 1133px;
+    margin-right: 156px;
+    width: fixed 151px;
+    height: auto 24px;
 }
 .webpage a {
 text-decoration: none;
@@ -45,7 +67,6 @@ text-transform: uppercase;
 margin-left: 200px;
 margin-top: 25.5px;
 margin-bottom: 25.5px;
-display: flex;
 width: fixed 71px;
 height: auto 21px;
 margin-right: 1169px;
@@ -59,6 +80,8 @@ margin-right: 1169px;
     font-weight: 500;
     line-height: 24px; /* 150% */
     letter-spacing: 0.32px;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 .contact-info a {
     text-decoration: none;
@@ -80,6 +103,8 @@ margin-right: 1169px;
     font-weight: 400;
     line-height: 24px; /* 150% */
     letter-spacing: 0.32px;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 .contact-info ul {
     list-style-type: none;
