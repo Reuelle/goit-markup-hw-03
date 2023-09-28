@@ -1,19 +1,33 @@
-
+header {
+ width: 1440px;
+height: 72px;
+flex-shrink: 0;
+border-bottom: 1px solid var(--CORNFLOWER, #E7E9FC);
+background: var(--WHITE, #FFF);
+display: inline-block;
+}
 .webpage span {
 width: 44px;
 color: var(--IRIS, #4D5AE5);
 font-family: Raleway;
-font-size: 18px;display: flex;
-width: 1440px;
-height: 72px;
-justify-content: center;
-align-items: center;
+font-size: 18px;
+display: flex;
+width: fixed 44px;
+height: auto 21px;
 flex-shrink: 0;
 font-style: normal;
 font-weight: 800;
 line-height: 21px; /* 116.667% */
 letter-spacing: 0.54px;
 text-transform: uppercase;
+margin-left: 156px;
+}
+a[href="studio"] {
+    margin-left: 347px;
+    margin-top: 24px;
+    display: flex;
+    margin-right: 1045px;
+   
 }
 .webpage a {
 text-decoration: none;
@@ -28,6 +42,13 @@ font-weight: 800;
 line-height: 21px; /* 116.667% */
 letter-spacing: 0.54px;
 text-transform: uppercase;
+margin-left: 200px;
+margin-top: 25.5px;
+margin-bottom: 25.5px;
+display: flex;
+width: fixed 71px;
+height: auto 21px;
+margin-right: 1169px;
 }
 .main .connect{
     color: var(--NAVY-BLUE, #2E2F42);
