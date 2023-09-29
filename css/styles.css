@@ -4,7 +4,7 @@ height: 72px;
 flex-shrink: 0;
 border-bottom: 1px solid var(--CORNFLOWER, #E7E9FC);
 background: var(--WHITE, #FFF);
-display: inline-block;
+display: inline;
 }
 .webpage span {
 width: 44px;
@@ -80,6 +80,8 @@ margin-right: 1169px;
     font-weight: 500;
     line-height: 24px; /* 150% */
     letter-spacing: 0.32px;
+}
+.top li {
     margin-top: 24px;
 }
 .contact-info a {
@@ -88,11 +90,7 @@ margin-right: 1169px;
 .contact .connect:hover,.contact .connect:focus {
     color: darkblue;
 }
-.main ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
+
 .contact-info .connect-1{
     color: var(--SLATE, #434455);
     /* Body */
@@ -104,6 +102,11 @@ margin-right: 1169px;
     letter-spacing: 0.32px;
     padding-top: 24px;
     padding-bottom: 24px;
+}
+.main ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 .contact-info ul {
     list-style-type: none;
