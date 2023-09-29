@@ -3,8 +3,8 @@
 }
 
 header {
-width: 1440px;
-height: 72px;
+width: fixed 1440px;
+height: fixed 72px;
 justify-content: center;
 align-items: center;
 border-bottom: 1px solid var(--CORNFLOWER, #E7E9FC);
@@ -133,26 +133,26 @@ a.connect:hover, a.connect:active {
 width: fixed 1440px;
 height: fixed 600px;
 flex-shrink: 0;
+align-items: center;
 background: var(--NAVY-BLUE, #2E2F42);
 }
- h1 {
-width: fixed 496px;
-height: fixed 120px;
-color: var(--WHITE, #FFF);
-text-align: center;
-/* Header 1 */
-font-family: Roboto;
-font-size: 56px;
-font-style: normal;
-font-weight: 700;
-line-height: 60px; /* 107.143% */
-letter-spacing: 1.12px;
-padding-top: 188px;
-padding-bottom: 292px;
-padding-right: 472px;
-padding-left: 472px;
+h1 {
+    width: 496px;
+    color: var(--WHITE, #FFF);
+    text-align: center;
+    /* Header 1 */
+    font-family: Roboto;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px; /* 107.143% */
+    letter-spacing: 1.12px;
 }
-div >  button {
+div > h1 {
+    margin-left: 472px;
+    padding-top: 199px;
+}
+div > button {
 color: var(--WHITE, #FFF);
 /* Button Text */
 font-family: Roboto;
@@ -173,10 +173,13 @@ margin-left: 636px;
 margin-bottom: 204px;
 margin-bottom: 372px;
 }
-
-
+.goal {
+    display: inline;
+    height: fixed 97px;
+    width: fixed 1440px;
+}
 .strategy h3 { 
-width: 264px;
+height: fixed 24px;
 color: var(--NAVY-BLUE, #2E2F42);
 /* Header 3 */
 font-family: Roboto;
@@ -187,7 +190,6 @@ line-height: 24px; /* 120% */
 letter-spacing: 0.4px;
 }
 .first li {
-    width:  fixed 264px;
     height: auto 72px;
     color: var(--SLATE, #434455);
     /* Body */
