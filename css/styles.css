@@ -150,7 +150,7 @@ h1 {
 }
 div > h1 {
     margin-left: 472px;
-    padding-top: 199px;
+    padding-top: 188px;
 }
 div > button {
 color: var(--WHITE, #FFF);
@@ -173,13 +173,12 @@ margin-left: 636px;
 margin-bottom: 204px;
 margin-bottom: 372px;
 }
-.goal {
+.goal > ul{
     display: inline;
-    height: fixed 97px;
-    width: fixed 1440px;
 }
 .strategy h3 { 
 height: fixed 24px;
+width: 264px;
 color: var(--NAVY-BLUE, #2E2F42);
 /* Header 3 */
 font-family: Roboto;
@@ -190,7 +189,7 @@ line-height: 24px; /* 120% */
 letter-spacing: 0.4px;
 }
 .first li {
-    height: auto 72px;
+    width: 264px;
     color: var(--SLATE, #434455);
     /* Body */
     font-family: Roboto;
@@ -217,16 +216,15 @@ letter-spacing: 0.4px;
     letter-spacing: 0.4px;
     }
     .punctuality li {
-        width:  fixed 264px;
-        height: auto 72px;
-        color: var(--SLATE, #434455);
-        /* Body */
-        font-family: Roboto;
-        font-size: 16px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 24px; /* 150% */
-        letter-spacing: 0.32px;
+     width: 264px;
+    color: var(--SLATE, #434455);
+/* Body */
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 150% */
+letter-spacing: 0.32px;
     }
     .punctuality ul {
         list-style-type: none;
@@ -245,16 +243,12 @@ letter-spacing: 0.4px;
         letter-spacing: 0.4px;
     }
     .diligence li {
-        width:  fixed 264px;
-        height: auto 72px;
-        color: var(--SLATE, #434455);
-        /* Body */
-        font-family: Roboto;
-        font-size: 16px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 24px; /* 150% */
-        letter-spacing: 0.32px;
+        width: 264px;
+        display: flex;
+        width: 264px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 8px;
     }
     .diligence ul {
         list-style-type: none;
@@ -273,9 +267,9 @@ letter-spacing: 0.4px;
         letter-spacing: 0.4px;
     }
     .Technology li {
-        width:  fixed 264px;
-        height: auto 72px;
+        width: 264px;
         color: var(--SLATE, #434455);
+
         /* Body */
         font-family: Roboto;
         font-size: 16px;
