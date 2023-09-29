@@ -4,12 +4,15 @@
 
 header {
 width: 1440px;
-height: 92px;
+height: 72px;
+justify-content: center;
+align-items: center;
 border-bottom: 1px solid var(--CORNFLOWER, #E7E9FC);
 background: var(--WHITE, #FFF);
 flex-shrink: 0;
 margin: 0;
 padding: 0;
+display: inline-block;
 }
 .webpage span {
 width: 44px;
@@ -175,6 +178,8 @@ line-height: 24px; /* 120% */
 letter-spacing: 0.4px;
 }
 .first li {
+    width:  fixed 264px;
+    height: auto 72px;
     color: var(--SLATE, #434455);
     /* Body */
     font-family: Roboto;
@@ -201,6 +206,8 @@ letter-spacing: 0.4px;
     letter-spacing: 0.4px;
     }
     .punctuality li {
+        width:  fixed 264px;
+        height: auto 72px;
         color: var(--SLATE, #434455);
         /* Body */
         font-family: Roboto;
@@ -227,6 +234,8 @@ letter-spacing: 0.4px;
         letter-spacing: 0.4px;
     }
     .diligence li {
+        width:  fixed 264px;
+        height: auto 72px;
         color: var(--SLATE, #434455);
         /* Body */
         font-family: Roboto;
@@ -241,17 +250,20 @@ letter-spacing: 0.4px;
         margin: 0;
         padding: 0;
     }
-    .Technology li {
-        color: var(--SLATE, #434455);
-        /* Body */
+    .Technology h3 {
+        width: 264px;
+        color: var(--NAVY-BLUE, #2E2F42);
+        /* Header 3 */
         font-family: Roboto;
-        font-size: 16px;
+        font-size: 20px;
         font-style: normal;
-        font-weight: 400;
-        line-height: 24px; /* 150% */
-        letter-spacing: 0.32px;
+        font-weight: 500;
+        line-height: 24px; /* 120% */
+        letter-spacing: 0.4px;
     }
     .Technology li {
+        width:  fixed 264px;
+        height: auto 72px;
         color: var(--SLATE, #434455);
         /* Body */
         font-family: Roboto;
