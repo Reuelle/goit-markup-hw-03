@@ -129,6 +129,7 @@ width: fixed 1440px;
 height: fixed 600px;
 flex-shrink: 0;
 background: var(--NAVY-BLUE, #2E2F42);
+margin-top: 0;
 }
 h1 {
  width: fixed 490px;
