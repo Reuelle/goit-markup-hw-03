@@ -1,9 +1,13 @@
+*,*::before,*::after {
+    box-sizing: border-box;
+}
+
 header {
 width: 1440px;
 height: 92px;
 border-bottom: 1px solid var(--CORNFLOWER, #E7E9FC);
-background: white;
-display: inline;
+background: var(--WHITE, #FFF);
+flex-shrink: 0;
 }
 .webpage span {
 width: 44px;
@@ -42,6 +46,7 @@ a[href="info@devstudio.com"] {
     margin-right: 347px;
     width: fixed 153px;
     height: auto 24px;
+    margin-top: 24px ;
 }
 a[href="+11(000)111-11-11"] {
     margin-left: 1133px;
@@ -97,7 +102,7 @@ margin-bottom: 24px;
 .contact-info a {
  text-decoration: none;
 }
-.webpage .connect:hover,.webpage .connect:focus {
+a.connect:hover, a.connect:active {
     color: darkblue;
 }
 
@@ -123,8 +128,9 @@ margin-bottom: 24px;
 width: 1440px;
 background: var(--NAVY-BLUE, #2E2F42);
 }
-.main-page h1 {
-width: 496px;
+h1 {
+    width: fixed 490px;
+    height: fixed 120px;
 color: var(--WHITE, #FFF);
 text-align: center;
 /* Header 1 */
@@ -134,7 +140,7 @@ font-style: normal;
 font-weight: 700;
 line-height: 60px; /* 107.143% */
 letter-spacing: 1.12px;
-padding-left: 472px;
+padding: 188px 472px 292px 472px;
 }
 button {
 display: inline-flex;
