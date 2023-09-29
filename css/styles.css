@@ -8,6 +8,8 @@ height: 92px;
 border-bottom: 1px solid var(--CORNFLOWER, #E7E9FC);
 background: var(--WHITE, #FFF);
 flex-shrink: 0;
+margin: 0;
+padding: 0;
 }
 .webpage span {
 width: 44px;
@@ -140,7 +142,7 @@ font-style: normal;
 font-weight: 700;
 line-height: 60px; /* 107.143% */
 letter-spacing: 1.12px;
-padding: 188px 472px 292px 472px;
+padding: 188px 472px 48px 472px;
 }
 button {
 width: auto 105px;
