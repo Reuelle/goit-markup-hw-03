@@ -10,9 +10,9 @@ align-items: center;
 border-bottom: 1px solid var(--CORNFLOWER, #E7E9FC);
 background: var(--WHITE, #FFF);
 flex-shrink: 0;
-margin: 0;
+margin: 2px;
 padding: 0;
-display: inline-block;
+display: inline;
 }
 .webpage span {
 width: 44px;
@@ -33,31 +33,46 @@ a[href="studio"] {
     margin-right: 1045px;
     width: auto 48px;
     height: auto 24px;
+    margin-top: 24px;
+    margin-bottom: 24px;
+    position: absolute;
 }
 a[href="portfolio"] {
     margin-left: 435px;
     width: auto 66px;
     height: auto 24px;
     margin-right: 939px;
+    margin-top: 24px;
+    margin-bottom: 24px;
+    position: absolute;
 }
 a[href="contacts"] {
     margin-left: 541px;
     width: auto 67px;
     height: auto 24px;
     margin-right: 832px;
+    position: absolute;
+    margin-top: 24px;
+    margin-bottom: 24px;
 }
 a[href="info@devstudio.com"] {
     margin-left: 940px;
     margin-right: 347px;
     width: fixed 153px;
     height: auto 24px;
-    margin-top: 24px ;
+    margin-top: 24px;
+    margin-bottom: 24px;
+    position: absolute;
+   
 }
 a[href="+11(000)111-11-11"] {
     margin-left: 1133px;
     margin-right: 156px;
     width: fixed 151px;
     height: auto 24px;
+    margin-top: 24px;
+    margin-bottom: 24px;
+    position: absolute;
 }
 .webpage a {
 text-decoration: none;
@@ -78,8 +93,8 @@ margin-bottom: 25.5px;
 width: fixed 71px;
 height: auto 21px;
 margin-right: 1169px;
-position: absolute;
 margin-bottom: 24px;
+position: absolute;
 }
 .main .connect{
     color: var(--NAVY-BLUE, #2E2F42);
@@ -91,17 +106,6 @@ margin-bottom: 24px;
     line-height: 24px; /* 150% */
     letter-spacing: 0.32px;
 }
-.contact li {
-    margin-top: 24px;
-    margin-bottom: 24px;
-    position: absolute;
-}
-.target li {
-    margin-top: 24px;
-    margin-bottom: 24px;
-    position: absolute;
-}
-
 .contact-info a {
  text-decoration: none;
 }
@@ -118,8 +122,6 @@ a.connect:hover, a.connect:active {
     font-weight: 400;
     line-height: 24px; /* 150% */
     letter-spacing: 0.32px;
-    padding-top: 24px;
-    padding-bottom: 24px;
 }
 .main ul {
     list-style-type: none;
@@ -132,10 +134,9 @@ width: fixed 1440px;
 height: fixed 600px;
 flex-shrink: 0;
 background: var(--NAVY-BLUE, #2E2F42);
-margin-top: 0;
 }
-h1 {
- width: fixed 490px;
+ h1 {
+width: fixed 496px;
 height: fixed 120px;
 color: var(--WHITE, #FFF);
 text-align: center;
@@ -146,27 +147,35 @@ font-style: normal;
 font-weight: 700;
 line-height: 60px; /* 107.143% */
 letter-spacing: 1.12px;
-padding: 188px 472px 48px 472px;
+padding-top: 188px;
+padding-bottom: 292px;
+padding-right: 472px;
+padding-left: 472px;
 }
-button {
-width: auto 105px;
-height: auto 24px;
-display: inline-flex;
-align-items: flex-start;
-gap: 10px;
-background: var(--IRIS, #4D5AE5);
-box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+div >  button {
 color: var(--WHITE, #FFF);
 /* Button Text */
 font-family: Roboto;
+font-size: 16px;
 font-style: normal;
+font-weight: 500;
+line-height: 24px; /* 150% */
 letter-spacing: 0.64px;
-border-radius: 4px;
-border: none;
-margin: 48px 635px 188px 668px;
+display: inline-flex;
 padding: 16px 32px;
+align-items: flex-start;
+gap: 10px;
+border-radius: 4px;
+background: var(--IRIS, #4D5AE5);
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+margin-right: 635px;
+margin-left: 636px;
+margin-bottom: 204px;
+margin-bottom: 372px;
 }
-.strategy h3 {
+
+
+.strategy h3 { 
 width: 264px;
 color: var(--NAVY-BLUE, #2E2F42);
 /* Header 3 */
