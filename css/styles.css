@@ -153,6 +153,7 @@ h1 {
     font-weight: 700;
     line-height: 60px; /* 107.143% */
     letter-spacing: 1.12px;
+    content: ;
 }
 div > h1 {
     margin-left: 472px;
@@ -489,6 +490,8 @@ font-weight: 800;
 line-height: 21px; /* 116.667% */
 letter-spacing: 0.54px;
 text-transform: uppercase;
+margin-left: 156px;
+margin-top: 101px;
     }
     footer {
         width: 1440px;
@@ -505,6 +508,11 @@ text-transform: uppercase;
         line-height: 24px; /* 150% */
         letter-spacing: 0.32px;
         width: 264px;
+        height: 312px;
+        flex-shrink: 0;
+        margin-left: 156px;
+        padding-top: 140px;
+        box-sizing: border-box;
     }
     footer > a {
         text-decoration: none;
