@@ -3,12 +3,14 @@
 }
 body {
     border : 5px;
-    margin-left: 10px;
+    width: 1440px;
+height: 2592px;
+background: #FFF;
     }
 
 header {
-width: fixed 1440px;
-height: fixed 72px;
+width: 1440px;
+height: 72px;
 justify-content: center;
 align-items: center;
 border-bottom: 1px solid var(--CORNFLOWER, #E7E9FC);
@@ -23,8 +25,8 @@ width: 44px;
 color: var(--IRIS, #4D5AE5);
 font-family: Raleway;
 font-size: 18px;
-width: fixed 44px;
-height: auto 21px;
+width: 44px;
+height: 21px;
 flex-shrink: 0;
 font-style: normal;
 font-weight: 800;
@@ -52,8 +54,8 @@ a[href="portfolio"] {
 }
 a[href="contacts"] {
     margin-left: 541px;
-    width: auto 67px;
-    height: auto 24px;
+    width: 67px;
+    height: 24px;
     margin-right: 832px;
     position: absolute;
     margin-top: 24px;
@@ -62,8 +64,8 @@ a[href="contacts"] {
 a[href="info@devstudio.com"] {
     margin-left: 940px;
     margin-right: 347px;
-    width: fixed 153px;
-    height: auto 24px;
+    width:  153px;
+    height:  24px;
     margin-top: 24px;
     margin-bottom: 24px;
     position: absolute;
@@ -72,8 +74,8 @@ a[href="info@devstudio.com"] {
 a[href="+11(000)111-11-11"] {
     margin-left: 1133px;
     margin-right: 156px;
-    width: fixed 151px;
-    height: auto 24px;
+    width:  151px;
+    height: 24px;
     margin-top: 24px;
     margin-bottom: 24px;
     position: absolute;
@@ -342,6 +344,7 @@ height: 732px;
 flex-shrink: 0;
 background: var(--CLOUD, #F4F4FD);
 margin-top: 120px;
+display: flex;
     }
     .team h2 {
         width: 165px;
@@ -361,7 +364,9 @@ margin-top: 120px;
         position: absolute;
     }
     .team  .resto {
-        padding-right: 24px;
+        width: 264px;
+        height: 380px;
+        display: flex;
         padding-top: 232px;
         padding-left: 156px;
         box-sizing: content-box;
@@ -370,25 +375,78 @@ padding-bottom: 0px;
 flex-direction: column;
 justify-content: center;
 align-items: center;
-gap: 6px;
+gap: 0px;
 border-radius: 0px 0px 4px 4px;
 background: var(--WHITE, #FFF);
 box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
     }
-    div .name {
+    .team .spoon {
+        width: 264px;
+        height: 380px;
+        display: flex;
+        padding-top: 232px;
+        padding-left: 24px;
+        box-sizing: content-box;
+        display: inline-flex;
+    padding-bottom: 0px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0px;
+    border-radius: 0px 0px 4px 4px;
+    background: var(--WHITE, #FFF);
+    box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+        }
+    
+    .team .fork {
+    width: 264px;
+    height: 380px;
+    display: flex;
+    padding-top: 232px;
+    padding-left: 24px;
+    box-sizing: content-box;
+    display: inline-flex;
+padding-bottom: 0px;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 0px;
+border-radius: 0px 0px 4px 4px;
+background: var(--WHITE, #FFF);
+box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+    }
+    .team .plate {
+        width: 264px;
+        height: 380px;
+        display: flex;
+        padding-top: 232px;
+        padding-left: 24px;
+        box-sizing: content-box;
+        display: inline-flex;
+    padding-bottom: 0px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0px;
+    border-radius: 0px 0px 4px 4px;
+    background: var(--WHITE, #FFF);
+    box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+div .name {
         margin-top: 32px;
         text-align: center;
+        position: relative;
+}
     }
     div .position {
+        height: 24px;
         margin-top: 8px;
         text-align: center;
+        margin-bottom: 32px;
+
     }
   
     * {
         box-sizing: border-box;
-    }
-    .team, .name, .position {
-display: flex;
     }
 
     .team .name {
@@ -403,31 +461,7 @@ display: flex;
         line-height: 24px; /* 120% */
         letter-spacing: 0.4px;
         box-sizing: content-box;
-
     }
-    .team  .position {
-color: var(--NAVY-BLUE, #2E2F42);
-/* Header 3 */
-font-family: Roboto;
-font-size: 20px;
-font-style: normal;
-font-weight: 500;
-line-height: 24px; /* 120% */
-letter-spacing: 0.4px;
-width: 135px;
-box-sizing: content-box;
-    }
-    .team > h4 {
-color: var(--SLATE, #434455);
-/* Body */
-font-family: Roboto;
-font-size: 16px;
-font-style: normal;
-font-weight: 400;
-line-height: 24px; /* 150% */
-letter-spacing: 0.32px;
-
-    } 
     footer span {
 width: 44px;
 height: 21px;
