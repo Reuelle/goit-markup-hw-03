@@ -198,7 +198,7 @@ margin-bottom: 216px;
 }
 .strategy {
     margin-top: 120px;
-    margin-left: 288px;
+    margin-left: 156px;
 }
 .first li {
     width: 264px;
@@ -304,7 +304,8 @@ letter-spacing: 0.32px;
         margin: 0;
         padding: 0;
     }
-    section > h2 {
+    .image > h2 {
+        width: 324px;
         color: var(--NAVY-BLUE, #2E2F42);
         text-align: center;
         
@@ -317,18 +318,56 @@ letter-spacing: 0.32px;
         letter-spacing: 0.72px;
         text-transform: capitalize;
         text-align: center;
+        margin-top: 140px;
+        margin-left: 559px;
+        box-sizing: content-box;
     }
     .image > ul {
         display: flex;
         height: 300px;
         width: 360px;
+        gap: 24px;
+        padding-left: 156px;
+        padding-top: 72px;
+        padding-bottom: 120px;
     }
     section ul {
         list-style-type: none;
         margin: 0;
         padding: 0;
     }
-    section > h3 {
+    .team {
+    width: 1440px;
+height: 732px;
+flex-shrink: 0;
+display: inline-block;
+    }
+    .team > img {
+        width: 264px;
+        height: 260px;
+        gap: 24px;
+    }
+    .team, h3, h4 {
+display: flex;
+    }
+
+    .team > h2 {
+    color: var(--NAVY-BLUE, #2E2F42);
+text-align: center;
+width: 163px;
+/* Header 2 */
+font-family: Roboto;
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: 40px; /* 111.111% */
+letter-spacing: 0.72px;
+text-transform: capitalize;
+box-sizing: content-box;
+margin-top: 240px;
+margin-left: 639px;
+    }
+    .team > h3 {
 color: var(--NAVY-BLUE, #2E2F42);
 /* Header 3 */
 font-family: Roboto;
@@ -337,8 +376,10 @@ font-style: normal;
 font-weight: 500;
 line-height: 24px; /* 120% */
 letter-spacing: 0.4px;
+width: 135px;
+box-sizing: content-box;
     }
-    section > h4 {
+    .team > h4 {
 color: var(--SLATE, #434455);
 /* Body */
 font-family: Roboto;
@@ -347,6 +388,7 @@ font-style: normal;
 font-weight: 400;
 line-height: 24px; /* 150% */
 letter-spacing: 0.32px;
+
     } 
     footer span {
 width: 44px;
@@ -360,6 +402,8 @@ font-weight: 800;
 line-height: 21px; /* 116.667% */
 letter-spacing: 0.54px;
 text-transform: uppercase;
+width: 145px;
+box-sizing: border-box;
     }
     a[title="End"]{
         width: 71px;
