@@ -367,9 +367,9 @@ display: flex;
     .team  .resto {
         width: 264px;
         height: 380px;
-        display: flex;
-        padding-top: 232px;
-        padding-left: 156px;
+        display: inline-flex;
+        margin-top: 232px;
+        margin-left: 156px;
         box-sizing: content-box;
         display: inline-flex;
 padding-bottom: 0px;
@@ -385,8 +385,8 @@ box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47,
         width: 264px;
         height: 380px;
         display: flex;
-        padding-top: 232px;
-        padding-left: 24px;
+        margin-top: 232px;
+        margin-left: 24px;
         box-sizing: content-box;
         display: inline-flex;
     padding-bottom: 0px;
@@ -402,9 +402,9 @@ box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47,
     .team .fork {
     width: 264px;
     height: 380px;
-    display: flex;
-    padding-top: 232px;
-    padding-left: 24px;
+    display: inline-flex;
+    margin-top: 232px;
+    margin-left: 24px;
     box-sizing: content-box;
     display: inline-flex;
 padding-bottom: 0px;
@@ -420,7 +420,7 @@ box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47,
         width: 264px;
         height: 380px;
         display: flex;
-        padding-top: 232px;
+        margin-top: 232px;
         padding-left: 24px;
         box-sizing: content-box;
         display: inline-flex;
@@ -447,14 +447,10 @@ font-style: normal;
 font-weight: 400;
 line-height: 24px; /* 150% */
 letter-spacing: 0.32px;
-
+content: normal;
     }
   
-    * {
-        box-sizing: border-box;
-    }
-
-    div .name {
+    .team .name {
         color: var(--NAVY-BLUE, #2E2F42);
         text-align: center;
         /* Header 3 */
@@ -464,8 +460,7 @@ letter-spacing: 0.32px;
         font-weight: 500;
         line-height: 20px; /* 120% */
         letter-spacing: 0.4px;
-        box-sizing: content-box;
-        margin-top: 8px;
+        margin-top: 32px;
         text-align: center;
         width: 160px;
         height: 25px;
