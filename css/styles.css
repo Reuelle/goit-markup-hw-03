@@ -102,7 +102,6 @@ margin-bottom: 25.5px;
 width:  71px;
 height: 21px;
 margin-right: 1169px;
-margin-bottom: 24px;
 position: absolute;
 }
 .main .connect{
@@ -160,6 +159,7 @@ letter-spacing: 1.12px;
 div > h1 {
     margin-left: 472px;
     padding-top: 188px;
+    
 }
 div > button {
     color: var(--WHITE, #FFF);
